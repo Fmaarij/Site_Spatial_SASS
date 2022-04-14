@@ -1,0 +1,382 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+header {
+  background-image: url("/public/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.817);
+  background-blend-mode: darken;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.806);
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+header nav .navbar {
+  display: flex;
+  gap: 2rem;
+}
+header .txtcenter {
+  text-align: center;
+  padding: 4rem;
+  width: 40%;
+  margin: auto;
+}
+header .txtcenter .sombrepheader {
+  color: rgba(255, 255, 255, 0.235);
+  text-transform: uppercase;
+}
+header .txtcenter .buthead {
+  background-color: rgba(255, 0, 0, 0.929);
+  height: 45px;
+  padding: 0 2rem;
+  color: #f6f6f6;
+  font-weight: bold;
+  border-radius: 2%;
+  border: none;
+  margin-top: 2rem;
+}
+header .txtcenter .divvide {
+  margin-bottom: 5rem;
+}
+
+.section1 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.section1 .deuxrow {
+  display: flex;
+  gap: 6rem;
+}
+.section1 .paraleft {
+  width: 40%;
+}
+.section1 .paraleft p {
+  color: rgba(0, 0, 0, 0.673);
+}
+.section1 .pararight {
+  width: 45%;
+  color: rgba(0, 0, 0, 0.673);
+}
+
+.section2 {
+  background-color: #f6f6f6;
+}
+.section2 .h1etp {
+  text-align: center;
+  padding-top: 1rem;
+}
+.section2 .h1etp p {
+  color: rgba(0, 0, 0, 0.673);
+}
+.section2 .deuximgrow {
+  display: flex;
+  width: 80%;
+  gap: 1rem;
+  margin: auto;
+}
+.section2 .deuximgrow img {
+  display: flex;
+  width: 50%;
+}
+.section2 .deuxp {
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.767);
+}
+.section2 .deuxbutton {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+.section2 .deuxbutton #rouge {
+  background-color: rgba(255, 0, 0, 0.929);
+  height: 45px;
+  padding: 0 2rem;
+  color: #f6f6f6;
+  font-weight: bold;
+  border-radius: 2%;
+  border: none;
+}
+.section2 .deuxbutton #noir {
+  background-color: rgba(0, 0, 0, 0.881);
+  height: 45px;
+  padding: 0 2rem;
+  color: #f6f6f6;
+  font-weight: bold;
+  border-radius: 2%;
+  border: none;
+}
+
+.section3 {
+  width: 80%;
+  margin: auto;
+  margin-top: 8rem;
+}
+.section3 .h1etpp {
+  font-size: x-large;
+}
+.section3 #sec3imgg {
+  padding: 2rem;
+  margin: auto;
+}
+.section3 #sec3imgg #sec3txt #sec3psombre {
+  color: rgba(0, 0, 0, 0.703);
+}
+.section3 .fourdiv {
+  display: flex;
+  margin-top: 5rem;
+}
+.section3 .fourdiv .divcol {
+  flex-direction: column;
+}
+.section3 .fourdiv .divcol .div1, .section3 .fourdiv .divcol .div2 {
+  display: flex;
+  margin: auto;
+  text-align: right;
+}
+.section3 .fourdiv img {
+  width: 120px;
+  border-radius: 100%;
+  outline: 5px grey solid;
+}
+.section3 .fourdiv .div2col .div3, .section3 .fourdiv .div2col .div4 {
+  display: flex;
+  margin: auto;
+  text-align: left;
+  flex-direction: row-reverse;
+}
+.section3 .fourdiv .div2col #sec3txt {
+  font-size: smaller;
+}
+.section3 p:nth-last-child(1) {
+  color: rgba(0, 0, 0, 0.908);
+}
+
+footer .minifooter {
+  background-image: url("/public/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: rgba(0, 0, 0, 0.817);
+  background-blend-mode: darken;
+  height: 250px;
+  color: rgba(255, 255, 255, 0.806);
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+footer .minifooter .txtcenter {
+  padding: 1.8rem;
+}
+footer .minifooter .sombrepheader {
+  color: rgba(246, 246, 246, 0.5058823529);
+}
+footer .minifooter #pink {
+  background-color: rgba(255, 0, 60, 0.929);
+  height: 45px;
+  padding: 0 2rem;
+  color: #f6f6f6;
+  font-weight: bold;
+  border-radius: 2%;
+  border: none;
+  margin-top: 1.2rem;
+}
+footer h1 {
+  font-size: 1.7rem;
+}
+footer .lastfooter {
+  justify-content: center;
+  margin-top: 4rem;
+  color: rgba(0, 0, 0, 0.327);
+}
+footer .lastfooter .icons {
+  display: flex;
+  font-size: 2rem;
+  gap: 5rem;
+  justify-content: center;
+}
+footer .lastfooter .txtfooter {
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  header {
+    height: 450px;
+  }
+  header .navbar, header .leftnav {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.631372549);
+  }
+  header .txtcenter {
+    padding: 2rem;
+    width: 80%;
+  }
+
+  span {
+    color: #ffffff;
+  }
+
+  .section1 {
+    width: 80%;
+  }
+
+  .section2 .h1etp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section2 .deuximgrow {
+    width: 95%;
+    gap: 0.5rem;
+  }
+  .section2 p:nth-child(2) {
+    padding-left: 5.2rem;
+    font-size: 1rem;
+  }
+  .section2 p:nth-child(1) {
+    font-size: 1rem;
+  }
+  .section2 .deuxbutton {
+    justify-content: space-around;
+  }
+  .section2 .deuxbutton #rouge, .section2 .deuxbutton #noir {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.6901960784);
+    height: 50px;
+  }
+
+  .section3 {
+    width: 100%;
+  }
+  .section3 .h1etpp {
+    text-align: center;
+  }
+
+  footer .minifooter {
+    padding-top: 0px;
+  }
+  footer .minifooter .txtcenter {
+    margin-top: 1.1rem;
+  }
+  footer .lastfooter {
+    margin-top: 3rem;
+  }
+  footer .lastfooter .icons {
+    font-size: 1.8rem;
+  }
+  footer .lastfooter .txtfooter {
+    margin: 2rem;
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  header nav .leftnav {
+    font-size: 0.5rem;
+  }
+  header nav .navbar {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 2rem;
+  }
+  header .txtcenter {
+    display: none;
+  }
+
+  .section1 {
+    width: 100%;
+  }
+  .section1 .deuxrow {
+    flex-direction: column;
+    text-align: center;
+    gap: 0rem;
+    font-size: 1.2rem;
+  }
+  .section1 .deuxrow .paraleft {
+    width: 100%;
+  }
+  .section1 .deuxrow .pararight {
+    width: 100%;
+  }
+
+  .section2 .deuximggrow {
+    flex-direction: row;
+    width: 100%;
+  }
+  .section2 .deuxp {
+    font-size: 0.4rem;
+    width: 80%;
+    margin: auto;
+  }
+  .section2 .deuxp .pun {
+    margin-left: 1.2rem;
+  }
+  .section2 .deuxp .pdeux {
+    margin-left: 4rem;
+  }
+  .section2 .deuxbutton {
+    padding: 1rem;
+    margin-top: 1rem;
+    gap: 0rem;
+  }
+  .section2 .deuxbutton #noir, .section2 .deuxbutton #rouge {
+    padding: 0rem;
+    margin: auto;
+    padding: 0;
+    font-size: 0.5rem;
+    height: 1.5rem;
+    width: 5.5rem;
+  }
+
+  .fourdiv {
+    flex-direction: column;
+  }
+  .fourdiv .divcol img, .fourdiv .div2col img {
+    width: 80px;
+  }
+
+  footer .minifooter {
+    height: 200px;
+    margin-top: 0rem;
+    padding-top: 0rem;
+  }
+  footer #pink {
+    margin-top: 0rem;
+    padding: 0rem;
+    font-size: 0.8rem;
+  }
+  footer h1 {
+    font-size: 1rem;
+  }
+  footer .lastfooter {
+    width: auto;
+  }
+  footer .lastfooter .icons {
+    font-size: 1rem;
+  }
+  footer .lastfooter .txtfooter {
+    font-size: 0.8rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

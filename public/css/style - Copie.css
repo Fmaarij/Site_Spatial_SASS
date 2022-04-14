@@ -1,0 +1,264 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+header {
+    background-image: url('/public/images/banner.jpg');
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.817);
+    background-blend-mode: darken;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.806);
+}
+
+.buthead {
+    background-color: rgba(255, 0, 0, 0.929);
+    height: 45px;
+    padding: 0 2rem;
+    color: #f6f6f6;
+    font-weight: bold;
+    border-radius: 2%;
+    border: none;
+    margin-top: 2rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+}
+
+.txtcenter {
+    text-align: center;
+    padding: 4rem;
+    width: 40%;
+    margin: auto;
+}
+
+.sombrepheader {
+    color: rgba(255, 255, 255, 0.235);
+    text-transform: uppercase;
+}
+
+.divvide {
+    margin-bottom: 5rem;
+}
+
+/*section 1*/
+.section1 {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    justify-content: space-around;
+
+}
+
+.deuxrow {
+    display: flex;
+    /* width: 60%; */
+    gap: 6rem;
+
+}
+
+.paraleft {
+    width: 40%;
+}
+
+.paraleft p {
+    color: rgba(0, 0, 0, 0.673);
+}
+
+.pararight {
+    width: 45%;
+    color: rgba(0, 0, 0, 0.673);
+}
+
+
+/*section 2*/
+.section2 {
+    background-color: #f6f6f6;
+}
+
+.h1etp {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.h1etp p {
+    color: rgba(0, 0, 0, 0.673);
+}
+
+.deuximgrow {
+    display: flex;
+    width: 80%;
+    gap: 1rem;
+    margin: auto;
+}
+
+.deuximgrow img {
+    display: flex;
+    width: 50%;
+}
+
+.deuxp {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.deuxbutton {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+#rouge {
+    background-color: rgba(255, 0, 0, 0.929);
+    height: 45px;
+    padding: 0 2rem;
+    color: #f6f6f6;
+    font-weight: bold;
+    border-radius: 2%;
+    border: none;
+}
+
+#noir {
+    background-color: rgba(0, 0, 0, 0.881);
+    height: 45px;
+    padding: 0 2rem;
+    color: #f6f6f6;
+    font-weight: bold;
+    border-radius: 2%;
+    border: none;
+}
+
+/* section3 */
+.section3 {
+    width: 80%;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.h1etpp {
+    font-size: x-large;
+}
+
+.fourdiv {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    display: flex;
+    margin: auto;
+
+}
+
+.fourdiv img {
+    width: 150px;
+    border-radius: 100%;
+    outline: 5px grey solid;
+
+}
+
+.divcol {
+    flex-direction: column;
+
+}
+
+.div2col>.div3,
+.div2col>.div4 {
+    flex-direction: row-reverse;
+}
+
+#sec3txt {
+    font-size: smaller;
+}
+
+.div1,
+.div2 {
+    text-align: right;
+}
+
+.div3,
+.div4 {
+    text-align: left;
+}
+
+#sec3imgg {
+    padding: 2rem;
+    margin: auto;
+}
+
+#sec3psombre {
+    color: rgba(0, 0, 0, 0.703);
+}
+
+.section3 p:nth-last-child(1) {
+    color: rgba(0, 0, 0, 0.908);
+}
+
+/* footer */
+.minifooter {
+    background-image: url('/public/images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: rgba(0, 0, 0, 0.817);
+    background-blend-mode: darken;
+    height: 300px;
+    color: rgba(255, 255, 255, 0.806);
+    margin-top: 2.5rem;
+}
+
+#pink {
+    background-color: rgba(255, 0, 60, 0.929);
+    height: 45px;
+    padding: 0 2rem;
+    color: #f6f6f6;
+    font-weight: bold;
+    border-radius: 2%;
+    border: none;
+    margin-top: 1.2rem;
+}
+
+footer h1 {
+    font-size: 1.6rem;
+}
+
+.lastfooter {
+    justify-content: center;
+    margin-top: 8rem;
+    color: rgba(0, 0, 0, 0.327);
+}
+
+.icons {
+    display: flex;
+    font-size: 4rem;
+    gap: 6rem;
+    justify-content: center;
+}
+
+.txtfooter {
+    display: flex;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-evenly;
+    margin: 4rem;
+}
